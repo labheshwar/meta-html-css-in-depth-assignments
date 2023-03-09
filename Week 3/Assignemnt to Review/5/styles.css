@@ -1,0 +1,109 @@
+body {
+    background-color: antiquewhite;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+header > img {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    background-color: coral;
+    border-radius: 30px;  
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    
+}
+
+nav li {
+    display: inline-block;
+    margin: 3%;
+}
+
+a {
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    color: blanchedalmond;
+    font-size: larger;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+    border-radius: 30px;
+    margin: 2%;
+    text-align: center;
+    color:cornsilk;
+}
+
+footer {
+    display: flex;
+    background-color:burlywood;
+    border-radius: 30px;
+}
+
+footer div {
+    flex: 1;
+    margin: 0% 5%;
+}
+
+footer img {
+    width: 104px;
+    height: 104px;
+    margin:10px;
+}
+
+#corsican {
+    background-image: url("https://sublimegardendesign.com/wp-content/uploads/2017/09/Corsican-Mint-Mentha-requienii.jpg");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 500px;
+}
+
+#spear {
+    background-image: url("https://cdn.shopify.com/s/files/1/0533/6743/9558/t/5/assets/pf-52259967--headermobilespearmint.jpg?v=1628259040");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#curly {
+    background-image: url("https://i.pinimg.com/originals/60/4f/65/604f653d662b71ae1464aaaf77050cd7.jpg");
+        background-color: transparent;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+}
+
+#apple {
+    background-image: url("https://plants.morrisonshomeandgarden.com/Content/Images/Photos/H259-01.jpg");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}

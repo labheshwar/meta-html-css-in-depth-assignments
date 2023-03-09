@@ -1,0 +1,103 @@
+body {
+  background-color: aliceblue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 3rem 5%;
+}
+
+h1 {
+  color: red;
+  font-size: 3rem;
+  text-align: center;
+}
+
+h2 {
+  color: red;
+  font-size: 2rem;
+}
+
+p {
+  color: white;
+}
+
+header img {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header h1 {
+  font-size: 4rem;
+  color: brown;
+  text-align: center;
+}
+
+nav ul {
+  background-color: antiquewhite;
+  list-style: none;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+nav li a {
+  color: rgb(241, 16, 91);
+  text-decoration: none;
+  font-size: x-large;
+  padding: 2rem;
+}
+
+section {
+  display: flex;
+}
+
+article {
+  flex: 1;
+  margin: 1rem;
+  border-radius: 10%;
+}
+
+.promotion {
+  background-image: url(./images/107147538-1667858742388-gettyimages-1340253645-pi-2188600.jpeg);
+  background-size: cover;
+  border-radius: 25%;
+}
+
+.promotion p {
+  text-align: center;
+}
+
+.wedding {
+  background-image: url(./images/wedding.jpg);
+  background-size: cover;
+}
+
+.engagement {
+  background-image: url(./images/engagement.jpg);
+  background-size: cover;
+}
+
+.anniversary {
+  background-image: url(./images/anniversary.jpg);
+  background-size: contain;
+}
+
+footer {
+  background-color: antiquewhite;
+  padding-top: 1rem;
+  display: flex;
+}
+
+footer div {
+  flex: 1;
+}
+
+footer img {
+  width: 50%;
+  height: auto;
+}
